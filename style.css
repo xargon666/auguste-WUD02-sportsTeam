@@ -13,7 +13,8 @@
 
 /* variables */
 :root {
-  --theme1: rgb(35, 111, 140);
+  
+  --theme1: rgb(5, 83, 93);
   --theme2: rgb(45, 137, 160);
   --theme3: rgb(54, 172, 181);
   --theme4: rgb(84, 210, 211);
@@ -101,7 +102,7 @@ footer{
   word-break: normal;
 }
 .tg th {
-  background-color: #409cff;
+  background-color: var(--theme1);
   border-color: #9abad9;
   border-style: solid;
   border-width: 1px;

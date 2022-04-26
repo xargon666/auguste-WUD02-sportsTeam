@@ -1,22 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Kreon:wght@700&family=Nobile&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cutive&family=Kreon:wght@700&family=Nobile&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
 
 /* dark mode */
 :root {
-    color-scheme: dark light;
-  }
+  color-scheme: dark light;
+}
 
 /* variables */
 :root {
-    --theme1: rgb(35, 111, 140);
-    --theme2: rgb(45, 137, 160);
-    --theme3: rgb(54, 172, 181);
-    --theme4: rgb(84, 210, 211);
-  }
+  --theme1: rgb(35, 111, 140);
+  --theme2: rgb(45, 137, 160);
+  --theme3: rgb(54, 172, 181);
+  --theme4: rgb(84, 210, 211);
+}
 /* font styling */
-h1 {font-family: 'Cutive', serif;}
-h2{font-family: 'Kreon', serif;}
-body{font-family: 'Nobile', sans-serif;}
-a{text-decoration: none;
-color:inherit;}
+h1 {
+  font-family: "Cutive", serif;
+}
+h2 {
+  font-family: "Kreon", serif;
+}
+body {
+  font-family: "Nobile", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
+/* header */
+header {
+    background-color:var(--theme1);
+    display:flex;
+    padding: 10px;
+    height:4em;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 1em;
+}
 
+/* main */
+main {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:5px;
+}
+
+/* footer */
+footer{
+    background-color:var(--theme2);
+    display:flex;
+    padding:5px;
+    height: 2em;
+    justify-content:center;
+    align-items:center;
+    margin-top:1em;
+}
+
+/* table formatting */
+.tg {
+  border-collapse: collapse;
+  border-color: #9abad9;
+  border-spacing: 0;
+}
+.tg td {
+  background-color: #ebf5ff;
+  border-color: #9abad9;
+  border-style: solid;
+  border-width: 1px;
+  color: #444;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  background-color: #409cff;
+  border-color: #9abad9;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-phtq {
+  background-color: #d2e4fc;
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}

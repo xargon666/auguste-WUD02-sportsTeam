@@ -60,9 +60,15 @@ header nav ul li {
 /* main */
 main {
     display:flex;
+    flex-flow:column;
     justify-content:center;
     align-items:center;
     padding:5px;
+}
+
+main img {
+  width:25vw;
+  margin-bottom:2em;
 }
 
 /* footer */

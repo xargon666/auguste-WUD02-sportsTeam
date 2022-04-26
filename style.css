@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Kreon:wght@700&family=Nobile&display=swap');
+
+/* dark mode */
+:root {
+    color-scheme: dark light;
+  }
+
+/* variables */
+:root {
+    --theme1: rgb(35, 111, 140);
+    --theme2: rgb(45, 137, 160);
+    --theme3: rgb(54, 172, 181);
+    --theme4: rgb(84, 210, 211);
+  }
+/* font styling */
+h1 {font-family: 'Cutive', serif;}
+h2{font-family: 'Kreon', serif;}
+body{font-family: 'Nobile', sans-serif;}
+a{text-decoration: none;
+color:inherit;}
+
+

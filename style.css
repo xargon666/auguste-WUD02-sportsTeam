@@ -84,7 +84,7 @@ footer{
 }
 
 /* table formatting */
-.tg + thead tr .th {
+.tg thead tr{
   text-align:center;
 }
 .tg tbody tr>td:not(:first-child){
@@ -123,11 +123,11 @@ footer{
 .tg .tg-phtq {
   background-color: #d2e4fc;
   border-color: inherit;
-  text-align: left;
+  /* text-align: left; */
   vertical-align: top;
 }
 .tg .tg-0pky {
   border-color: inherit;
-  text-align: left;
+  /* text-align: left; */
   vertical-align: top;
 }

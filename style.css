@@ -84,6 +84,12 @@ footer{
 }
 
 /* table formatting */
+.tg + thead tr .th {
+  text-align:center;
+}
+.tg tbody tr>td:not(:first-child){
+  text-align:center;
+}
 .tg {
   border-collapse: collapse;
   border-color: #9abad9;

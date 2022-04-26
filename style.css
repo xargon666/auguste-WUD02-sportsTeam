@@ -44,6 +44,19 @@ header {
     margin-bottom: 1em;
 }
 
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  text-decoration-color: var(--theme4);
+}
+
+header nav ul li {
+  padding: 10px;
+  list-style-type: none;
+  color: var(--theme4);
+}
+
 /* main */
 main {
     display:flex;
